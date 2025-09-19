@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: catering.businesslogic.kitchen.SummarySheetTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.265 s <<< FAILURE! -- in catering.businesslogic.kitchen.SummarySheetTest
+catering.businesslogic.kitchen.SummarySheetTest.testSummarySheetCreation -- Time elapsed: 0.004 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Chef user should be loaded ==> expected: not <null>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertNotNull.failNull(AssertNotNull.java:49)
+	at org.junit.jupiter.api.AssertNotNull.assertNotNull(AssertNotNull.java:35)
+	at org.junit.jupiter.api.Assertions.assertNotNull(Assertions.java:312)
+	at catering.businesslogic.kitchen.SummarySheetTest.setup(SummarySheetTest.java:48)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+catering.businesslogic.kitchen.SummarySheetTest.testTaskAssignment -- Time elapsed: 0.004 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Chef user should be loaded ==> expected: not <null>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertNotNull.failNull(AssertNotNull.java:49)
+	at org.junit.jupiter.api.AssertNotNull.assertNotNull(AssertNotNull.java:35)
+	at org.junit.jupiter.api.Assertions.assertNotNull(Assertions.java:312)
+	at catering.businesslogic.kitchen.SummarySheetTest.setup(SummarySheetTest.java:48)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
